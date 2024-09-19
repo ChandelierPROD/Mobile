@@ -1,6 +1,6 @@
 package com.example.finalprodproject.utils.enums;
 
-public enum LoaderState {
+enum class LoaderState {
     LOADING,
     SUCCESS,
     ERROR
