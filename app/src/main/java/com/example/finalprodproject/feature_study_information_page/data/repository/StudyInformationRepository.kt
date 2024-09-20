@@ -8,7 +8,7 @@ import com.example.finalprodproject.feature_user.domain.helpers.UserStorageHandl
 class StudyInformationRepository(context: Context) {
 
     private val token by lazy {
-        UserStorageHandler(context).token
+        UserStorageHandler(context).getToken()
     }
 
     suspend fun getCourseById(id: Int): Course {

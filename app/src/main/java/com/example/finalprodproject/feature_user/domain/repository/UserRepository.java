@@ -20,7 +20,7 @@ public class UserRepository {
     public UserAPI userAPI;
 
     public UserRepository() {
-        userAPI = new UserApiService(new RetrofitBuilder()).getUserAPI();
+        userAPI = new UserApiService().getUserAPI();
     }
 
     public Call<UserDTO> register(String phone, String firstname, String password) {
