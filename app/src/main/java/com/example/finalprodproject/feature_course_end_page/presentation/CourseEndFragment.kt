@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.course_end_page.presentation
+package com.example.finalprodproject.feature_course_end_page.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import com.google.android.material.transition.MaterialSharedAxis
 
 class CourseEndFragment : Fragment() {
 
-    private val args by navArgs<CourseEndFragmentArgs>()
+    private val args by navArgs<com.example.finalprodproject.feature_course_end_page.presentation.CourseEndFragmentArgs>()
     private val argName by lazy { args.name }
     private val argPoints by lazy { args.points }
 

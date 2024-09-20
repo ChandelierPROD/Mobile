@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_page.data.api
+package com.example.finalprodproject.feature_study_page.data.api
 
 import com.example.finalprodproject.common.core.dto.Course
 import com.example.finalprodproject.common.core.dto.Profile

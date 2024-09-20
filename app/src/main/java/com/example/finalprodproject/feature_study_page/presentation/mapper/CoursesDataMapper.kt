@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_page.presentation.mapper
+package com.example.finalprodproject.feature_study_page.presentation.mapper
 
 import com.example.finalprodproject.common.core.dto.Course
 import com.example.finalprodproject.common.coreui.cources_category_item.CoursesCategoryItemViewModel

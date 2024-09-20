@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_page.presentation
+package com.example.finalprodproject.feature_study_page.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.finalprodproject.common.core.dto.Course
 import com.example.finalprodproject.common.core.dto.Profile
-import com.example.finalprodproject.feature.study_page.data.repository.StudyRepository
+import com.example.finalprodproject.feature_study_page.data.repository.StudyRepository
 import kotlinx.coroutines.launch
 
 class StudyViewModel(

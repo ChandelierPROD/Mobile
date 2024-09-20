@@ -1,5 +1,5 @@
 package com.example.finalprodproject.utils;
 
 object Constants {
-    const val USER_API_PATH: String = "http://82.97.241.151:8081/api/"
+    const val USER_API_PATH: String = "http://185.247.17.211:8081/api/"
  }

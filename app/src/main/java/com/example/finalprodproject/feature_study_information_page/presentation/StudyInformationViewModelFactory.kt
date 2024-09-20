@@ -1,8 +1,8 @@
-package com.example.finalprodproject.feature.study_information_page.presentation
+package com.example.finalprodproject.feature_study_information_page.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.finalprodproject.feature.study_information_page.data.repository.StudyInformationRepository
+import com.example.finalprodproject.feature_study_information_page.data.repository.StudyInformationRepository
 
 @Suppress("UNCHECKED_CAST")
 class StudyInformationViewModelFactory(

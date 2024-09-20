@@ -1,11 +1,11 @@
-package com.example.finalprodproject.feature.study_information_page.presentation
+package com.example.finalprodproject.feature_study_information_page.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.finalprodproject.common.core.dto.Course
-import com.example.finalprodproject.feature.study_information_page.data.repository.StudyInformationRepository
+import com.example.finalprodproject.feature_study_information_page.data.repository.StudyInformationRepository
 import kotlinx.coroutines.launch
 
 class StudyInformationViewModel(

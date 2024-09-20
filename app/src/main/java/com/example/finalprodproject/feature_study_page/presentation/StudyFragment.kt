@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_page.presentation
+package com.example.finalprodproject.feature_study_page.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,9 +14,9 @@ import com.example.finalprodproject.R
 import com.example.finalprodproject.common.coreui.cources_category_item.CoursesCategoryItemDelegateAdapter
 import com.example.finalprodproject.common.coreui.cources_category_item.CoursesCategoryItemViewModel
 import com.example.finalprodproject.databinding.StudyFragmentBinding
-import com.example.finalprodproject.feature.study_page.data.repository.StudyRepository
-import com.example.finalprodproject.feature.study_page.presentation.mapper.CoursesDataMapper.mapToViewModelByCategories
-import com.example.finalprodproject.feature.study_page.presentation.mapper.CoursesDataMapper.mapToViewModelsList
+import com.example.finalprodproject.feature_study_page.data.repository.StudyRepository
+import com.example.finalprodproject.feature_study_page.presentation.mapper.CoursesDataMapper.mapToViewModelByCategories
+import com.example.finalprodproject.feature_study_page.presentation.mapper.CoursesDataMapper.mapToViewModelsList
 import com.example.finalprodproject.utils.adapter.CompositeAdapter
 import com.example.finalprodproject.utils.image_loader.ImageLoader
 
@@ -39,15 +39,15 @@ class StudyFragment : Fragment() {
             .add(CoursesCategoryItemDelegateAdapter { _, courseItemViewModel ->
                 val direction: NavDirections = with(courseItemViewModel) {
                     if (!started && !explored) {
-                        StudyFragmentDirections.actionStudyFragmentToStudyInformationFragment(
+                        com.example.finalprodproject.feature_study_page.presentation.StudyFragmentDirections.actionStudyFragmentToStudyInformationFragment(
                             courseItemViewModel.id
                         )
                     } else if (started && !explored) {
-                        StudyFragmentDirections.actionStudyFragmentToRoadmapFragment(
+                        com.example.finalprodproject.feature_study_page.presentation.StudyFragmentDirections.actionStudyFragmentToRoadmapFragment(
                             courseItemViewModel.id
                         )
                     } else {
-                        StudyFragmentDirections.actionStudyFragmentToCourseEndFragment(
+                        com.example.finalprodproject.feature_study_page.presentation.StudyFragmentDirections.actionStudyFragmentToCourseEndFragment(
                             courseItemViewModel.title,
                             courseItemViewModel.points
                         )

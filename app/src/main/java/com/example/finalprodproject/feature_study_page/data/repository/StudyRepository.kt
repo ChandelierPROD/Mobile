@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_page.data.repository
+package com.example.finalprodproject.feature_study_page.data.repository
 
 import android.content.Context
 import com.example.finalprodproject.common.core.dto.Course

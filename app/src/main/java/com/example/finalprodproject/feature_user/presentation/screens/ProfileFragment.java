@@ -78,7 +78,7 @@ public class ProfileFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        viewModel.getProfile().observe(requireActivity(), userProfile -> {
+        viewModel.getProfile().observe(getViewLifecycleOwner(), userProfile -> {
             if (userProfile != null) {
                 binding.userPhone.setText(userProfile.getPhone());
                 if (userProfile.getLastname() != null)
@@ -86,7 +86,7 @@ public class ProfileFragment extends Fragment {
                 else binding.userName.setText(userProfile.getFirstname());
                 binding.profileScores.setText(Integer.toString(userProfile.getPoints()));
 
-                if (userProfile.getImage() != null) Glide.with(requireActivity()).load(userProfile.getImage()).into(binding.avatar);
+                if (userProfile.getImage() != null) Glide.with(requireContext()).load(userProfile.getImage()).into(binding.avatar);
 
                 for (Achievement achievement: userProfile.getAchievement()) {
                     if (achievement.getName().equals("Образовака")) {

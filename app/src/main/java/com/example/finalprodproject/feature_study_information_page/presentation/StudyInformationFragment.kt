@@ -1,4 +1,4 @@
-package com.example.finalprodproject.feature.study_information_page.presentation
+package com.example.finalprodproject.feature_study_information_page.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,12 +9,12 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.finalprodproject.databinding.StudyInformationFragmentBinding
-import com.example.finalprodproject.feature.study_information_page.data.repository.StudyInformationRepository
+import com.example.finalprodproject.feature_study_information_page.data.repository.StudyInformationRepository
 import com.google.android.material.transition.MaterialSharedAxis
 
 class StudyInformationFragment : Fragment() {
 
-    private val args by navArgs<StudyInformationFragmentArgs>()
+    private val args by navArgs<com.example.finalprodproject.feature_study_information_page.presentation.StudyInformationFragmentArgs>()
     private val argId by lazy { args.id }
 
     private var _binding: StudyInformationFragmentBinding? = null
@@ -68,7 +68,7 @@ class StudyInformationFragment : Fragment() {
                 viewModel.subscribe(course.id)
                 binding.enrol.visibility = View.GONE
                 findNavController().navigate(
-                    StudyInformationFragmentDirections.actionStudyInformationFragmentToRoadmapFragment(
+                    com.example.finalprodproject.feature_study_information_page.presentation.StudyInformationFragmentDirections.actionStudyInformationFragmentToRoadmapFragment(
                         argId
                     )
                 )

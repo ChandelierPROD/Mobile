@@ -1,7 +1,7 @@
 package com.example.finalprodproject.common.network.retrofit
 
-import com.example.finalprodproject.feature.study_information_page.data.api.StudyInformationApiInterface
-import com.example.finalprodproject.feature.study_page.data.api.CoursesApiInterface
+import com.example.finalprodproject.feature_study_information_page.data.api.StudyInformationApiInterface
+import com.example.finalprodproject.feature_study_page.data.api.CoursesApiInterface
 import com.example.finalprodproject.utils.Constants
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
