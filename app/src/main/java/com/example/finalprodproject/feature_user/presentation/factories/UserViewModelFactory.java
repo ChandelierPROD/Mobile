@@ -8,8 +8,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.finalprodproject.feature_user.domain.helpers.UserStorageHandler;
 import com.example.finalprodproject.feature_user.domain.repository.UserRepository;
-import com.example.finalprodproject.feature_user.presentation.viewmodels.UserViewModel;
 
+// NOT USED
 public class UserViewModelFactory implements ViewModelProvider.Factory {
     private final Application application;
     private final UserRepository userRepository;
@@ -25,7 +25,7 @@ public class UserViewModelFactory implements ViewModelProvider.Factory {
     @NonNull
     @Override
     public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
-        if (modelClass.isAssignableFrom(UserViewModel.class)) return (T) new UserViewModel(application, storageHandler, userRepository);
+//        if (modelClass.isAssignableFrom(UserViewModel.class)) return (T) new UserViewModel(application, storageHandler, userRepository);
         throw new IllegalArgumentException("Unknown ViewModel class");
     }
 }

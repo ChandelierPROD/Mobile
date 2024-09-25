@@ -43,7 +43,7 @@ public class UserDTO {
     private int points;
 
     @SerializedName("image")
-    private String image;
+    private String image = null;
 
     @SerializedName("achievement")
     private List<Achievement> achievement;
@@ -154,7 +154,7 @@ public class UserDTO {
     }
 
     public String getImage() {
-        return ChangePathImage.INSTANCE.update(image);
+        return image != null ? ChangePathImage.INSTANCE.update(image) : "";
     }
 
     public void setImage(String image) {
