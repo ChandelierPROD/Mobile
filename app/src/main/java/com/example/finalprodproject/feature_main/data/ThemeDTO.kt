@@ -39,7 +39,7 @@ class ThemeDTO(
     val image: String,
 
     @SerializedName("under")
-    val underThemes: List<UnderTheme>?,
+    val underThemes: List<UnderTheme>,
 
     @SerializedName("mark")
     val mark: Int?,

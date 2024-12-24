@@ -19,7 +19,7 @@ public class TaskModel {
     private Boolean started;
 
     @SerializedName("image")
-    private Boolean image;
+    private String image;
 
     public TaskModel() {}
 
@@ -63,11 +63,11 @@ public class TaskModel {
         this.started = started;
     }
 
-    public Boolean getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(Boolean image) {
+    public void setImage(String image) {
         this.image = image;
     }
 }

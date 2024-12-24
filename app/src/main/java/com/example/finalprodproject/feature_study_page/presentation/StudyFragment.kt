@@ -76,14 +76,14 @@ class StudyFragment : Fragment() {
                 coursesCompositeAdapter.submitList(getCombinedLists())
             }
         } else {
-            viewModel.clearAllCourses()
+           // viewModel.clearAllCourses()
         }
         if (viewModel.myCoursesData.value == null) {
             viewModel.myCoursesData.observe(viewLifecycleOwner) {
                 coursesCompositeAdapter.submitList(getCombinedLists())
             }
         } else {
-            viewModel.clearMyCourses()
+            //viewModel.clearMyCourses()
         }
         if (viewModel.profileData.value == null) {
             viewModel.profileData.observe(viewLifecycleOwner) {
