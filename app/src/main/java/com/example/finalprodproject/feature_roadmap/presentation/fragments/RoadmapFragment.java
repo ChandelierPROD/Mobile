@@ -80,6 +80,7 @@ public class RoadmapFragment extends Fragment {
             if (themes != null) {
                 ArrayList<RoadmapItem> roadmapItems = new ArrayList<>();
                 for (UnderTheme underTheme: themes) {
+                    if (underTheme.getImage() == null) continue;
                     roadmapItems.add(new RoadmapItem(underTheme.getTitle(), underTheme.getImage(), underTheme.getPoints(), underTheme.getId()));
                 }
                 adapter = new GraphAdapter(roadmapItems);

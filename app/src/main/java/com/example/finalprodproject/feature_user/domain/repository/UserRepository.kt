@@ -13,7 +13,7 @@ import retrofit2.Call
 import java.io.File
 
 class UserRepository {
-    private val userAPI: UserAPI = UserApiService().userAPI
+    private val userAPI: UserAPI = UserApiService().getUserAPI()
 
     fun register(phone: String, firstname: String, password: String): Call<UserDTO> = userAPI.register(UserDTO(phone, firstname, password))
 

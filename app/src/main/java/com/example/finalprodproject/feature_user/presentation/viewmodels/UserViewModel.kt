@@ -69,6 +69,10 @@ class UserViewModel(
                 statusCode.value = response.code()
                 if (response.isSuccessful && response.body() != null) {
                     storageHandler.setToken(response.body()!!.token)
+                    Log.d("authmsg", response.body()!!.token);
+                    Log.d("authmsg", response.body()!!.token);
+                    Log.d("authmsg", response.body()!!.token);
+                    Log.d("authmsg", response.body()!!.token);
                     loaderLogin.value = LoaderState.SUCCESS
                 }
             }
@@ -104,16 +108,18 @@ class UserViewModel(
         statusCode.value = code
     }
 
-    fun checkAuth(): LiveData<Boolean> {
-        loaderCheckAuth.value = (LoaderState.LOADING)
+    fun checkAuth() {
+        loaderCheckAuth.value = LoaderState.LOADING
         userRepository.checkAuth(storageHandler.getToken()).enqueue(object: Callback<UserDTO> {
             override fun onResponse(call: Call<UserDTO>, response: Response<UserDTO>) {
                 if (response.isSuccessful && response.body() != null) {
                     storageHandler.setProfileData(response.body()!!.firstname, response.body()!!.phone, response.body()!!.id)
                     isAuth.value = true
-                } else isAuth.value = false
-
-                loaderCheckAuth.value = LoaderState.SUCCESS
+                    loaderCheckAuth.value = LoaderState.SUCCESS
+                } else {
+                    isAuth.value = false
+                    loaderCheckAuth.value = LoaderState.ERROR
+                }
             }
 
             override fun onFailure(call: Call<UserDTO>, t: Throwable) {
@@ -122,8 +128,6 @@ class UserViewModel(
                 loaderCheckAuth.value = LoaderState.ERROR
             }
         })
-
-        return isAuth
     }
 
     fun getProfile(): LiveData<UserProfile> {
@@ -145,7 +149,7 @@ class UserViewModel(
                     userRepository.getUsersThemes(storageHandler.getToken()).enqueue(object: Callback<List<ThemeDTO>> {
                         override fun onResponse(call: Call<List<ThemeDTO>>, response2: Response<List<ThemeDTO>>) {
                             if (response2.isSuccessful && response2.body() != null) {
-                                userProfile.themes = response2.body()
+                                userProfile.themes = response2.body()!!
                                 profile.value = userProfile
                             }
                         }

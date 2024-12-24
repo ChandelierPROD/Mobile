@@ -60,17 +60,13 @@ class AuthFragment: Fragment() {
             binding.successLayout.registrationTv.setTextColor(Color.parseColor("#818C99"))
         }
 
+
         return binding.root
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        userViewModel.checkAuth().observe(getViewLifecycleOwner()) { isAuth ->
-            if (isAuth) Navigation.findNavController(requireView())
-                .navigate(R.id.action_authFragment_to_shopFragment)
-        }
 
         userViewModel.getRegisterLoader().observe(getViewLifecycleOwner()) { loaderState ->
             if (loaderState != null) {
@@ -93,62 +89,69 @@ class AuthFragment: Fragment() {
                     else -> binding.loadingLayout.visibility = View.GONE
                 }
 
-                userViewModel.getLoginLoader().observe(getViewLifecycleOwner()) { loaderState1 ->
-                    if (loaderState1 != null) {
-                        when (loaderState1) {
-                            LoaderState.LOADING -> binding.loadingLayout.visibility = View.VISIBLE
-                            LoaderState.SUCCESS -> {
-                                binding.loadingLayout.visibility = View.GONE
-                                Navigation.findNavController(requireView())
-                                    .navigate(R.id.shopFragment)
-                                Log.d("navigation", "nav")
-                            }
-                            LoaderState.ERROR -> binding.loadingLayout.visibility = View.VISIBLE
-                            else -> binding.loadingLayout.visibility = View.GONE
-                        }
+
+            }
+        }
+        userViewModel.getLoginLoader().observe(getViewLifecycleOwner()) { loaderState1 ->
+            if (loaderState1 != null) {
+                when (loaderState1) {
+                    LoaderState.LOADING -> binding.loadingLayout.visibility = View.VISIBLE
+                    LoaderState.SUCCESS -> {
+                        binding.loadingLayout.visibility = View.GONE
+                        Navigation.findNavController(requireView())
+                            .navigate(R.id.shopFragment)
+                        Log.d("navigation", "nav")
+                    }
+                    LoaderState.ERROR -> binding.loadingLayout.visibility = View.GONE
+                    else -> binding.loadingLayout.visibility = View.GONE
+                }
+            }
+        }
+
+        userViewModel.getLoaderCheckAuth().observe(getViewLifecycleOwner()) { loaderState2 ->
+            if (loaderState2 != null) {
+                when (loaderState2) {
+                    LoaderState.LOADING -> {
+                        binding.loadingLayout.visibility = View.VISIBLE
+                      //  binding.successAuth.visibility = View.GONE
+                    }
+                    LoaderState.SUCCESS -> {
+                        Navigation.findNavController(requireView()).navigate(R.id.action_authFragment_to_shopFragment)
+                    }
+                    LoaderState.ERROR -> {
+                        binding.loadingLayout.visibility = View.GONE
+                        binding.successAuth.visibility = View.VISIBLE
                     }
                 }
+            }
+        }
 
-                userViewModel.getLoaderCheckAuth().observe(getViewLifecycleOwner()) { loaderState2 ->
-                    if (loaderState2 != null) {
-                        when (loaderState2) {
-                            LoaderState.LOADING -> {
-                                binding.loadingLayout.visibility = View.VISIBLE
-                                binding.successAuth.visibility = View.GONE
-                            }
-                            else -> binding.successAuth.visibility = View.VISIBLE
-                        }
-                    }
+        userViewModel.getStatusCode().observe(getViewLifecycleOwner()) { statusCode ->
+            when (statusCode) {
+                400 -> {
+                    binding.successLayout.authErrorIcon.visibility = View.VISIBLE
+                    binding.successLayout.text2.visibility = View.VISIBLE
+                    binding.successLayout.authError.text = "Неправильный формат ввода данных"
                 }
-
-                userViewModel.getStatusCode().observe(getViewLifecycleOwner()) { statusCode ->
-                    when (statusCode) {
-                        400 -> {
-                            binding.successLayout.authErrorIcon.visibility = View.VISIBLE
-                            binding.successLayout.text2.visibility = View.VISIBLE
-                            binding.successLayout.authError.text = "Неправильный формат ввода данных"
-                        }
-                        401 -> {
-                            binding.successLayout.authErrorIcon.visibility = View.VISIBLE
-                            binding.successLayout.text2.visibility = View.GONE
-                            binding.successLayout.authError.text = "Не авторизован"
-                        }
-                        404 -> {
-                            binding.successLayout.authErrorIcon.visibility = View.VISIBLE
-                            binding.successLayout.text2.visibility = View.GONE
-                            binding.successLayout.authError.text = "Не найден"
-                        }
-                        409 -> {
-                            binding.successLayout.authErrorIcon.visibility = View.VISIBLE
-                            binding.successLayout.text2.visibility = View.GONE
-                            binding.successLayout.authError.text = "Пользователь с такими данными уже существует"
-                        }
-                        else -> {
-                            binding.successLayout.authErrorIcon.visibility = View.GONE
-                            binding.successLayout.text2.visibility = View.GONE
-                            binding.successLayout.authError.text = ""
-                        }
-                    }
+                401 -> {
+                    binding.successLayout.authErrorIcon.visibility = View.VISIBLE
+                    binding.successLayout.text2.visibility = View.GONE
+                    binding.successLayout.authError.text = "Не авторизован"
+                }
+                404 -> {
+                    binding.successLayout.authErrorIcon.visibility = View.VISIBLE
+                    binding.successLayout.text2.visibility = View.GONE
+                    binding.successLayout.authError.text = "Не найден"
+                }
+                409 -> {
+                    binding.successLayout.authErrorIcon.visibility = View.VISIBLE
+                    binding.successLayout.text2.visibility = View.GONE
+                    binding.successLayout.authError.text = "Пользователь с такими данными уже существует"
+                }
+                else -> {
+                    binding.successLayout.authErrorIcon.visibility = View.GONE
+                    binding.successLayout.text2.visibility = View.GONE
+                    binding.successLayout.authError.text = ""
                 }
             }
         }

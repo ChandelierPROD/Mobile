@@ -23,8 +23,8 @@ class RetrofitBuilder {
                 .readTimeout(30, TimeUnit.MINUTES)
 
             return Retrofit.Builder()
-                .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl(BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
                 .client(client.build())
                 .build()
         }
