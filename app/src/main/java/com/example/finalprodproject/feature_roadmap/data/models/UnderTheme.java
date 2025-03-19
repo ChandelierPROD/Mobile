@@ -2,6 +2,8 @@ package com.example.finalprodproject.feature_roadmap.data.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class UnderTheme {
     @SerializedName("id")
     private int id;
@@ -29,6 +31,9 @@ public class UnderTheme {
 
     @SerializedName("points")
     private int points;
+
+    @SerializedName("tasks")
+    private List<TaskModel> tasks;
 
     public UnderTheme() {}
 
@@ -102,5 +107,13 @@ public class UnderTheme {
 
     public void setPoints(int points) {
         this.points = points;
+    }
+
+    public List<TaskModel> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<TaskModel> tasks) {
+        this.tasks = tasks;
     }
 }

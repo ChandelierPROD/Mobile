@@ -28,6 +28,7 @@ import com.bumptech.glide.Glide;
 import com.example.finalprodproject.R;
 import com.example.finalprodproject.databinding.ProfileFragmentBinding;
 import com.example.finalprodproject.feature_user.data.models.Achievement;
+import com.example.finalprodproject.feature_user.domain.helpers.UserStorageHandler;
 import com.example.finalprodproject.feature_user.presentation.viewmodels.UserViewModel;
 
 import java.io.ByteArrayOutputStream;
@@ -48,10 +49,19 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = ProfileFragmentBinding.inflate(inflater, container, false);
 
-        viewModel = new ViewModelProvider(requireActivity()).get(UserViewModel.class);
+        viewModel = new ViewModelProvider(requireActivity(), UserViewModel.Companion.provideFactory(new UserStorageHandler(requireContext()))).get(UserViewModel.class);
+
+
+        return binding.getRoot();
+    }
+
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
         binding.editProfile.setOnClickListener(v -> {
-            Navigation.findNavController(v).navigate(R.id.action_profileFragment_to_editProfileDialogFragment);
+            Navigation.findNavController(view).navigate(R.id.action_profileFragment_to_editProfileDialogFragment);
         });
 
         binding.avatar.setOnClickListener(v -> {
@@ -68,15 +78,6 @@ public class ProfileFragment extends Fragment {
                 startActivityForResult(chooserIntent, SELECT_PHOTO_PROFILE);
             }
         });
-
-        return binding.getRoot();
-    }
-
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
 
         viewModel.getProfile().observe(getViewLifecycleOwner(), userProfile -> {
             if (userProfile != null) {

@@ -6,8 +6,8 @@ import com.example.finalprodproject.utils.Constants;
 public class ThemesApiService {
     private final ThemesAPI themesAPI;
 
-    public ThemesApiService(RetrofitBuilder retrofitService) {
-        themesAPI = retrofitService.getInstance(Constants.USER_API_PATH).create(ThemesAPI.class);
+    public ThemesApiService() {
+        themesAPI = RetrofitBuilder.Companion.getInstance(Constants.USER_API_PATH).create(ThemesAPI.class);
     }
 
     public ThemesAPI getThemeAPI() {

@@ -184,19 +184,19 @@ public class ThemesViewModel extends AndroidViewModel {
     }
 
     public LiveData<List<TaskModel>> getTasksList(int underThemeID) {
-        themesRepository.getTasksList(userStorageHandler.getToken(), underThemeID).enqueue(new Callback<List<TaskModel>>() {
-            @Override
-            public void onResponse(@NonNull Call<List<TaskModel>> call, @NonNull Response<List<TaskModel>> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    tasksList.setValue(response.body());
-                }
-            }
-
-            @Override
-            public void onFailure(@NonNull Call<List<TaskModel>> call, @NonNull Throwable t) {
-                Log.e("err_tasks", t.getMessage(), t);
-            }
-        });
+//        themesRepository.getTasksList(userStorageHandler.getToken(), underThemeID).enqueue(new Callback<List<TaskModel>>() {
+//            @Override
+//            public void onResponse(@NonNull Call<List<TaskModel>> call, @NonNull Response<List<TaskModel>> response) {
+//                if (response.isSuccessful() && response.body() != null) {
+//                    tasksList.setValue(response.body());
+//                }
+//            }
+//
+//            @Override
+//            public void onFailure(@NonNull Call<List<TaskModel>> call, @NonNull Throwable t) {
+//                Log.e("err_tasks", t.getMessage(), t);
+//            }
+//        });
 
         return tasksList;
     }

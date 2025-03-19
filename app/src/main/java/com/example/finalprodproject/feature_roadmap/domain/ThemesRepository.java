@@ -18,7 +18,7 @@ public class ThemesRepository {
     public ThemesAPI themesAPI;
 
     public ThemesRepository() {
-        themesAPI = new ThemesApiService(new RetrofitBuilder()).getThemeAPI();
+        themesAPI = new ThemesApiService().getThemeAPI();
     }
 
     public Call<ThemeDTO> getThemeByID(String token, int id) {
