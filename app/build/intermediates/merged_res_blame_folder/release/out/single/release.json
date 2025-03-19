@@ -1,0 +1,558 @@
+[
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_empty_layout.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/empty_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_study_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/study_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_smile_5.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/smile_5.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_final_icon.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/final_icon.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_cup.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/cup.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_commerce_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/commerce_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_star.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/star.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_custom_round_bg_4.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/custom_round_bg_4.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_input_field.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/input_field.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_inactive_polyubvi.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/inactive_polyubvi.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_custom_round_bg.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/custom_round_bg.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_flash.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/flash.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.finalprodproject.app-merged_res-53:/layout_problems_fragment.xml.flat",
+        "source": "com.example.finalprodproject.app-main-54:/layout/problems_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_bottom_corners_card.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/bottom_corners_card.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_category_item.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/category_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_inactive_first.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/inactive_first.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_mark_toast.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/mark_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_shop.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/shop.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_study_information_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/study_information_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_circle.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_roadmap_layout.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/roadmap_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_study.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/study.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_top_card.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/top_card.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_tests.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/tests.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_loading_layout.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/loading_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_smile_4.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/smile_4.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_profile_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/profile_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_courses_category_item.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/courses_category_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_inactive_obrazovaka.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/inactive_obrazovaka.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_shop_course_custom.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/shop_course_custom.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_line_1.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/line_1.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_success_auth_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/success_auth_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_progress_bar_custom.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/progress_bar_custom.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_money_toast.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/money_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/font_sf_pro_display_semibold.otf.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/font/sf_pro_display_semibold.otf"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_flash.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_flash.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/xml_chip_wrapper.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/xml/chip_wrapper.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_edit.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/edit.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_default_icon.jpg.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/default_icon.jpg"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_roadmap_header.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/roadmap_header.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_graduates.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_graduates.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_app_icon.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/app_icon.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/navigation_nav.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/navigation/nav.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_lightning.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/lightning.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_custom_round_bg_3.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/custom_round_bg_3.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_outline_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/outline_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_secondary_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/secondary_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_registration.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/registration.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_saved_toast.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/saved_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_polyubvi.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/polyubvi.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_login.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/login.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_button_with_plus.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_plus.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_auth_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/auth_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_roadmap_bg.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/roadmap_bg.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_study_back.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/study_back.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_selector.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/selector.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_custom_toast.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_corners_4.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/corners_4.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_line_left.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/line_left.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_smile_2.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/smile_2.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_card_container_background.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/card_container_background.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_shop_courses_item.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/shop_courses_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_shop_course_item.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/shop_course_item.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_theme_details.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/theme_details.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_check_toast.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/check_toast.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_color_border_2.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/color_border_2.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_no_network_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/no_network_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_first.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/first.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_card_mark_background.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/card_mark_background.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_corners_48.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/corners_48.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_wrong_input_background.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/wrong_input_background.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_button_with_number.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_number.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_smile_1.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/smile_1.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_input_background.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/input_background.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_failed.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/failed.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_corners_chip.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/corners_chip.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_corners_12.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/corners_12.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_circle_item.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/circle_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_change_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/change_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_icon_back.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/icon_back.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/font_sf_pro_display_medium.otf.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/font/sf_pro_display_medium.otf"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_color_border_3.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/color_border_3.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_testicon.jpeg.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/testicon.jpeg"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_button_with_arrow.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_arrow.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_info.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/info.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_author_icon.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/author_icon.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/font_sf_pro_display_regular.otf.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/font/sf_pro_display_regular.otf"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_tertiary_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/tertiary_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_custom_round_bg_2.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/custom_round_bg_2.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_students.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_students.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_sharp_star.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/sharp_star.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_user.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/user.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_close.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/close.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_shop_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/shop_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_message.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/message.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_plus.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/plus.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_arrow.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/arrow.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_corners_16.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/corners_16.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_courses_item.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/courses_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_long_arrow.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/long_arrow.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_ic_splash_screen.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/ic_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_smile_3.png.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/smile_3.png"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_complete.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/complete.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/menu_menu.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_done.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/done.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_problems_fragment.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/problems_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_obrazovaka.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/obrazovaka.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/font_sf_pro_display_bold.otf.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/font/sf_pro_display_bold.otf"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_color_border_1.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/color_border_1.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_outline_8.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/outline_8.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout_course_end.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/course_end.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_muted_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/muted_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/layout-v28_splash_screen.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout-v28/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_bottom_corners.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/bottom_corners.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_active_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/active_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_color_border_4.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/color_border_4.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_primary_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/primary_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_line_right.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/line_right.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_inactive_button.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/inactive_button.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_info_icon.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/info_icon.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-merged_res-53:/drawable_roadmap_scroll_bg.xml.flat",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/drawable/roadmap_scroll_bg.xml"
+    }
+]

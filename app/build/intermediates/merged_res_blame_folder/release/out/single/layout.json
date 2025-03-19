@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/course_end.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/course_end.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/circle_item.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/circle_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/problems_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/problems_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/login.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/login.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/saved_toast.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/saved_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/money_toast.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/money_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/roadmap_layout.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/roadmap_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/button_with_number.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_number.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/button_with_arrow.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_arrow.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/loading_layout.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/loading_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/category_item.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/category_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/registration.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/registration.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/study_information_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/study_information_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/button_with_plus.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/button_with_plus.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/mark_toast.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/mark_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/courses_category_item.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/courses_category_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/no_network_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/no_network_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/auth_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/auth_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/profile_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/profile_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/empty_layout.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/empty_layout.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/study_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/study_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/activity_main.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/change_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/change_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/input_field.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/input_field.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/theme_details.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/theme_details.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/shop_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/shop_fragment.xml"
+    },
+    {
+        "merged": "com.example.finalprodproject.app-mergeReleaseResources-52:/layout/problems_fragment.xml",
+        "source": "com.example.finalprodproject.app-main-54:/layout/problems_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/custom_toast.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/success_auth_fragment.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/success_auth_fragment.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/shop_courses_item.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/shop_courses_item.xml"
+    },
+    {
+        "merged": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-mergeReleaseResources-52:/layout/courses_item.xml",
+        "source": "/Users/macbook/.gradle/daemon/8.4/com.example.finalprodproject.app-main-54:/layout/courses_item.xml"
+    }
+]

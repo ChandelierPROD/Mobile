@@ -1,0 +1,7 @@
+#Wed Dec 25 01:45:06 MSK 2024
+base.0=/Users/macbook/AndroidStudioProjects/Mobile2/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/Users/macbook/AndroidStudioProjects/Mobile2/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#F9F9F9</color>
+    <color name="black">#FF000000</color>
+    <color name="colorAccentMatt">#00D7B7</color>
+    <color name="color_card_background">#EDEEF4</color>
+    <color name="color_card_mark_text">#222222</color>
+    <color name="color_field_border_alpha">#DFDFDF</color>
+    <color name="color_image_border_alpha">#EAEAEA</color>
+    <color name="color_purple">#C185FF</color>
+    <color name="color_separator_primary">#D6D7D8</color>
+    <color name="color_separator_primary_alpha">#DFDFDF</color>
+    <color name="color_separator_secondary">#E0E2E5</color>
+    <color name="color_stroke_accent">#2687EA</color>
+    <color name="color_stroke_accent_themed">#2687EA</color>
+    <color name="color_stroke_contrast">#FEFEFE</color>
+    <color name="color_stroke_negative">#E54646</color>
+    <color name="color_stroke_positive">#4BB24B</color>
+    <color name="color_yellow">#FFF61F</color>
+    <color name="dark_grey">#6C6C6C</color>
+    <color name="full_black">#000000</color>
+    <color name="main_color">#00D7B7</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="bottom_navigation_height">64dp</dimen>
+    <dimen name="card_details">12dp</dimen>
+    <dimen name="card_elements_margin">8dp</dimen>
+    <dimen name="card_elements_small_margin">4dp</dimen>
+    <dimen name="card_horizontal_padding">8dp</dimen>
+    <dimen name="card_mark_corners">8dp</dimen>
+    <dimen name="card_vertical_padding">12dp</dimen>
+    <dimen name="circle">40dp</dimen>
+    <dimen name="corners">16dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_big_half">12dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_very_small">4dp</dimen>
+    <dimen name="small_padding">4dp</dimen>
+    <dimen name="text_card_mark">8sp</dimen>
+    <dimen name="text_card_title">12sp</dimen>
+    <dimen name="text_category_name">24sp</dimen>
+    <string name="app_name">FinalProdProject</string>
+    <string name="courses">Мои курсы</string>
+    <string name="error">Ошибка</string>
+    <string name="graduates">Выпускники</string>
+    <string name="login">Вход</string>
+    <string name="math">Математика</string>
+    <string name="math_analysis">Математический анализ</string>
+    <string name="name">Имя</string>
+    <string name="next">Далее</string>
+    <string name="password">Пароль</string>
+    <string name="phone">Номер телефона</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="points">Баллы</string>
+    <string name="registration">Регистрация</string>
+    <string name="screen_saver">MISIS.SMART</string>
+    <string name="search">Поиск по названию</string>
+    <string name="students">Обучающиеся</string>
+    <string name="welcome_back">С возвращением!</string>
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Base.Theme.FinalProdProject" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:colorPrimary">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="Theme.FinalProdProject" parent="Base.Theme.FinalProdProject"/>
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+</resources>
