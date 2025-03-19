@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FinalProdProject</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="error">Ошибка</string>
+    <string name="screen_saver">MISIS.SMART</string>
+    <string name="welcome_back">С возвращением!</string>
+    <string name="login">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="phone">Номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="next">Далее</string>
+    <string name="search">Поиск по названию</string>
+    <string name="courses">Мои курсы</string>
+    <string name="math">Математика</string>
+    <string name="math_analysis">Математический анализ</string>
+    <string name="points">Баллы</string>
+    <string name="students">Обучающиеся</string>
+    <string name="graduates">Выпускники</string>
+</resources>
